@@ -5,17 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TeachWave</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="bg-black">
+<body class="bg-black inter-font">
 
+
+    <!-- navbar and hero section -->
     <header>
         <nav class="navbar">
             <div class="nav">
-              <div>
-                  <img src="./assets/TechWave.png" alt="">
-              </div>
+                <div>
+                    <img src="./assets/TechWave.png" alt="">
+                </div>
 
                 <ul class="nav-links display-flex">
                     <li><a href="">About</a></li>
@@ -29,13 +36,79 @@
         </nav>
 
         <hr>
-        
+
         <section class="hero-section">
-            <div>
+            <div class="hero-image">
+                <div class="hero-circle">
+                    <img class="circle" src="./assets/hero-circle.png" alt="">
+                    <div class="mic-frame">
+                        <img class="mic" src="./assets/microphone.png" alt="">
+                    </div>
+                    <span class="badge">NEW</span>
+                </div>
+
+                <div class="hero-content">
+                    <h1 class="hero-title">TechWave</h1>
+                    <p class="hero-description">Your daily dose of tech insights, productivity hacks, and personal
+                        growth</p>
+                    <div class="hero-btn display-flex">
+                        <button class=" btn2"> <img src="./assets/spotify.png" alt="">Listen on Spotify</button>
+                        <button class="btn3"><img src="./assets/message.png" alt="">Subscribe</button>
+                    </div>
+                </div>
 
             </div>
         </section>
     </header>
+    <!-- navbar and hero section -->
+
+    <main>
+        <section class="about-section">
+
+            <h1 class="about-title text">About the Podcast</h1>
+            <p class="about-description text2">TechWave is your go-to podcast for staying ahead in the fast-paced world
+                of
+                technology.
+                We break down complex topics into digestible insights, explore productivity strategies that actually
+                work,
+                and share stories of personal growth from industry leaders.
+                <br>
+                <br>
+                Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+            </p>
+            <br>
+            <br>
+
+            <hr>
+
+            <div class="about-card display-flex">
+                <div class="card">
+                    <h2 class="card-title">150K+</h2>
+                    <p class="card-para text2 ">Monthly Listeners</p>
+                </div>
+                <div class="card">
+                    <h2 class="card-title">200+</h2>
+                    <p class="card-para text2 ">Episodes Published</p>
+                </div>
+                <div class="card">
+                    <h2 class="card-title">4.9 ★</h2>
+                    <p class="card-para text2 ">Average Rating</p>
+                </div>
+                <div class="card">
+                    <h2 class="card-title">50+</h2>
+                    <p class="card-para text2 ">Industry Experts</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- footer section  -->
+    <footer>
+
+    </footer>
+
+    <!-- footer section -->
 </body>
 
 </html>
