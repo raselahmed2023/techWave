@@ -1,7 +1,6 @@
-
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-weight: weight;
+    font-family: "Inter", sans-serif;
+    font-weight: weight;
 }
 
 
@@ -198,4 +197,106 @@ hr {
 .about-card {
     justify-content: space-between;
     margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.why-section {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.why {
+    background: rgba(35, 14, 61, 1);
+    max-width: 1600px;
+    gap: 40px;
+    padding: 40px 120px 80px 150px;
+}
+
+.why-title {
+    color: rgba(255, 255, 255, 1);
+    font-style: Bold;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 380px 1fr 1fr;
+    grid-template-rows: 225px 225px 273px;
+    grid-template-areas:
+        "box-1 box-2 box-2 "
+        "box-1 box-3 box-3"
+        "box-4 box-4 box-5";
+}
+
+.why-title {
+    color: rgba(255, 255, 255, 1);
+    font-style: Bold;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.box {
+    padding: 40px;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box img {
+    width: 60px;
+    height: 60px;
+}
+
+.box h3 {
+    margin: 0;
+}
+
+.frame-section {
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 120px;
+}
+
+.yt-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.yt-img {
+    width: 20px;
+    height: 20px;
+}
+
+.yt-min {
+    color: rgba(0, 255, 136, 1);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.yt-flex {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.bg-card {
+    background: rgba(37, 13, 68, 1);
+    padding: 24px;
+}
+
+.yt-featured{
+    color: rgba(255, 255, 255, 1);
+font-style: Bold;
+font-size: 3rem;
+font-weight: 700;
+text-align: center;
 }
