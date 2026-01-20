@@ -323,6 +323,13 @@ hr {
     text-align: center;
 }
 
+.host-host {
+    color: rgba(255, 255, 255, 1);
+    font-style: Bold;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
 
 .host {
     margin: 0 auto;
@@ -346,6 +353,7 @@ hr {
     margin: 0;
     font-size: 2rem;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 
 .social-icon {
@@ -545,6 +553,7 @@ hr {
         padding: 24px;
     }
 
+
     .host-card img {
         width: 140px;
         height: 140px;
@@ -557,10 +566,12 @@ hr {
         flex-wrap: wrap;
         gap: 12px;
     }
-    .socials{
-    gap: 12px;
-    flex-wrap: wrap; 
-  }
+
+    .social-icon img {
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+    }
 
     .footer {
         height: auto;
